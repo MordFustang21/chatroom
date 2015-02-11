@@ -14,14 +14,15 @@
                 <label>Message</label>
                 <input ng-model="message">
             </md-input-container>
-
-            <md-input-container class="form-control text-box">
-                <label>Search</label>
-                <input ng-model="searchField">
-            </md-input-container>
         </md-content>
     </form>
 
+    <md-content md-theme="docs-dark" class="md-padding" layout="row" layout-sm="column">
+        <md-input-container class="form-control text-box">
+            <label>Search</label>
+            <input ng-model="searchField">
+        </md-input-container>
+    </md-content>
     <div class="cardContainer">
         <!-- MD Card for each message -->
         <md-card ng-repeat="message in messages | filter: searchField">
