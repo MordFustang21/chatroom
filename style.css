@@ -36,8 +36,14 @@ p {
 .cardContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+#newChat {
+    background: #3F51B5;
+    color: #FFF;
+    width: 125px;
+}
 md-card {
     min-height: 150px;
     max-width: 500px;

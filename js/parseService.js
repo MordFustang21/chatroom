@@ -35,6 +35,10 @@ app.service('parseService', function($http, $q){
         return deferred.promise;
     };
   
-  
+
+    this.setChat = function(chatRoom){
+
+    };
+
   //getData method here
 });

@@ -7,6 +7,9 @@
 <body ng-controller="mainCtrl">
 <div class="main-container">
     <h1> DevMountain Chat (Material Edition) </h1>
+    <p>Current Chat {{currentChat}}</p>
+
+    <md-button class="md-raised" id="newChat">ChatRoom</md-button>
 
     <form ng-submit="postData()">
         <md-content md-theme="docs-dark" class="md-padding" layout="row" layout-sm="column">
